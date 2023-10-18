@@ -3,8 +3,8 @@ import { createApp } from 'vue';
 import router from './router.js';
 import App from './App.vue';
 
-const app = create(App);
+const app = createApp(App);
 
 app.use(router);
 
-createApp({}).mount('#app');
+app.mount('#app');
