@@ -3,7 +3,7 @@
     <nav>
       <h1><router-link to="/"></router-link>Find a Coach</h1>
       <ul>
-        <li><router-link to="/coachers">All Coaches</router-link></li>
+        <li><router-link to="/coaches">All Coaches</router-link></li>
         <li><router-link to="/requests">Requests</router-link></li>
       </ul>
     </nav>
